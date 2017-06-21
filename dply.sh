@@ -24,7 +24,7 @@ node --version
 npm --version
 yarn --version
 ng --version
-sudo apt-get install python3 python3-venv python3-dev libpq-dev build-essential -yqq
+sudo apt-get install python3 python3-venv python3-dev python3-pip libpq-dev build-essential -yqq
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip 
