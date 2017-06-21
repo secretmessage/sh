@@ -18,7 +18,7 @@ sudo apt-get install -y build-essential python-minimal
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update && sudo apt-get install yarn
-sudo npm install -g @angular/cli
+sudo npm install -g @angular/cli --unsafe-perm
 ng set --global packageManager=yarn
 node --version
 npm --version
